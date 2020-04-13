@@ -1,0 +1,16 @@
+
+name: Jack Guinane
+
+description: Jack Guinane's site Jekyll Test
+
+url: "https://guinane.xyz"
+
+permalink: /:categories/:title/
+
+baseurl:
+
+include:
+  - _redirects
+
+collections:
+  - cards

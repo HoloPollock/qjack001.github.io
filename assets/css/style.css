@@ -1,24 +1,24 @@
 @font-face
 {
     font-family: "circ";
-    src: url('./font/webfont.eot');
-    src: url('./font/webfont.eot?#iefix') format('embedded-opentype'),
-        url('./font/webfont.woff') format('woff'),
-        url('./font/webfont.woff2') format('woff2'),
-        url('./font/webfont.ttf') format('truetype'),
-        url('./font/webfont.svg#svgFontName') format('svg');
+    src: url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.eot');
+    src: url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.woff') format('woff'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.woff2') format('woff2'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.ttf') format('truetype'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont.svg#svgFontName') format('svg');
     font-weight: normal;
 }
 
 @font-face
 {
     font-family: "circ";
-    src: url('./font/webfont-bold.eot');
-    src: url('./font/webfont-bold.eot?#iefix') format('embedded-opentype'),
-        url('./font/webfont-bold.woff') format('woff'),
-        url('./font/webfont-bold.woff2') format('woff2'),
-        url('./font/webfont-bold.ttf') format('truetype'),
-        url('./font/webfont-bold.svg#svgFontName') format('svg');
+    src: url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.eot');
+    src: url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.eot?#iefix') format('embedded-opentype'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.woff') format('woff'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.woff2') format('woff2'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.ttf') format('truetype'),
+        url('https://holopollock.github.io/qjack001.github.io/assets/font/webfont-bold.svg#svgFontName') format('svg');
     font-weight: bold;
 }
 
@@ -65,22 +65,6 @@ body
 { 
     padding: 20px;
     display: table-cell; vertical-align: middle;
-}
-
-
-#quinn-card
-{
-    color:#000;
-    background-image: url('./img/qp-l.jpg');
-}
-
-@media (prefers-color-scheme: dark)
-{
-    #quinn-card
-    {
-        color:#fff;
-        background-image: url('./img/qp-d.jpg');
-    }
 }
 
 
