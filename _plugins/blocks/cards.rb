@@ -14,7 +14,7 @@ module Jekyll
       text_color_dark = @props["text_color_dark"]
       image_dark = @props["image_dark"]
 
-      id = title.delete(' ') + "-id"
+      id = title.delete(' ').downcase + "-id"
 
       if image_dark != nil
             image_dark = "assets/img/" + image_dark
