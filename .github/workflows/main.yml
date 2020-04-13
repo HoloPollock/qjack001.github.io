@@ -8,17 +8,15 @@ jobs:
     steps:
       - name: GitHub Checkout
         uses: actions/checkout@v2
-      - name: Cache gems
-        uses: actions/cache@v1
+      - name: name: Bundler Cache
+      	uses: actions/cache@v1
         with:
-          path: vendor/gems
-          key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
+            ${{ runner.os }}-gems-
       - name: Build & Deploy to GitHub Pages
-        uses: joshlarsen/jekyll4-deploy-gh-pages@master
+        uses: joshlarsen/jekyll4-deploy-gh-pages@caching
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
