@@ -1,7 +1,7 @@
 ---
 link: https://guinane.xyz/The-Report/
 text_color: "#000"
-image: tr.png 
+image: tr.jp2 
 title: The Report
 order: 15
 ---

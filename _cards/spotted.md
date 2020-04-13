@@ -1,7 +1,7 @@
 ---
 link: https://github.com/qjack001/Spotted#------
 text_color: "#2d8143"
-image: sp.png
+image: sp.jp2
 title: Spotted
 order: 12 
 ---

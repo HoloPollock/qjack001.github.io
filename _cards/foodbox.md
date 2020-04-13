@@ -1,7 +1,7 @@
 ---
 link: https://github.com/qjack001/Food-Box#--------foodbox
 text_color: "#222"
-image: fb.png
+image: fb.jp2
 title: Foodbox 
 order: 16
 ---

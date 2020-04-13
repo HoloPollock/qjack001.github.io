@@ -2,8 +2,8 @@
 link: https://github.com/GoodByteCo/quinnpollock.net
 title: Quinn Pollock
 text_color: "#000"
-image: qp-l.jpg
-image_dark: qp-d.jpg
+image: qp-l.jp2
+image_dark: qp-d.jp2
 text_color_dark: "#fff"
 order: 9
 ---
